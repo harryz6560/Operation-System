@@ -1,0 +1,7 @@
+# Comment lines and empty lines should be ignored
+
+timeout 7 ./myclock outA
+timeout 7 ./myclock outB
+timeout 7 ./myclock outB
+timeout 5 ./do_work bash.man 100
+timeout 7 ./do_work bash.man 50
